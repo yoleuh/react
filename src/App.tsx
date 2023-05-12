@@ -1,7 +1,11 @@
-import Message from "./message"
+import Message from "./Message";
 
-function app(){
-  return <div><Message /></div>
+function app() {
+  return (
+    <div>
+      <Message />
+    </div>
+  );
 }
 
-export default app
+export default app;
